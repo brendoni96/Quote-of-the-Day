@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/ceb1d23e01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quote of the Day</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">Quote of the Day</div>
+        <div class="content">
+            <div class="quote-area">
+                <i class="fa-solid fa-quote-left"></i>
+                <span class="quote" id="copyText">Positive thinking will let you do everything better than negative
+                    thinking will.</span>
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="author">
+                <span>- Zig Ziglar</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="features">
+                <ul>
+                    <li><i id="likebtn" class='far fa-heart' onclick="likeBtn()"></i></li>
+                    <li><i class="fas fa-copy copy-icon" onclick="copyToClipboard()"></i></li>
+                </ul>
+                <button id="btn">New Quote</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
